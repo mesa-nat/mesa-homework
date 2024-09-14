@@ -1,0 +1,97 @@
+*{
+    margin-left : 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Khmer", sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+
+}
+body{
+    width: 80%;
+    height: 700px;
+    background-color: rgba(6, 156, 167, 0.966);
+    background: linear-gradient(to right, rgba(15, 14, 14, 0.822),rgb(7, 188, 243));
+}
+header{
+    display: flex;
+    position: relative;
+  
+
+}
+.title{
+    position: relative;
+    top: 100px;
+    left: 700px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+
+}
+.line{
+    width: 300px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    position: relative;
+    top: 150px;
+    left: 500px;
+    background-color: gray;
+}
+.container{
+    display: flex;
+    position: relative;
+    top: 150px;
+    left: 430px;
+    width: 60%;
+    height: 350px;
+    background: linear-gradient(to right, rgba(15, 14, 14, 0.822),rgb(7, 188, 243));
+}
+span{
+    height: 20px;
+    width: 20px;
+    background: gray;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    left: 500px;
+}
+.left-form img{
+    width: auto;
+    height: 350px;
+    margin-left: -85px;
+    clip-path: polygon(73% 0, 100% 50%, 73% 100%, 14% 100%, 14% 53%, 14% 0);
+}
+.form-header img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 180px;
+}
+input{
+    background: white;
+    border: none;
+    margin-left: 20px;
+    width: 500px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+button{
+    background: rgba(0, 174, 255, 0.842);
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.right-form img{
+    margin-left: -73px;
+    margin-top: -100px;
+    clip-path: polygon(0 22%, 68% 100%, 67% 22%);
+    width: 300px;
+    height: 450px;
+    padding: 90px;
+    font-size: 30px;
+    background-color: rgb(4, 226, 226);
+}
